@@ -4,7 +4,8 @@
 }
 
 .mountain {
-    background-image: url("https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?cs=srgb&dl=pexels-stephan-seeber-1054218.jpg&fm=jpg");
+   /* background-image: url("https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?cs=srgb&dl=pexels-stephan-seeber-1054218.jpg&fm=jpg");*/
+    background-image: url(/Assets/Images/Mountain.jpg);
     max-width: 100%;
     height: 100vh;
     background-size: cover;
