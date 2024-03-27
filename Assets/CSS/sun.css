@@ -1,0 +1,32 @@
+.sun {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 0, 0.636);
+    box-shadow: 0 0 220px 150px yellow;
+    animation: Sun-rise 10s ease-in infinite;
+    /* margin-left: -500px; */
+    position: absolute;
+    top: 0;
+    left: -450px;
+}
+/* Animation Properties for sun rising start */
+
+@keyframes Sun-rise {
+    from {
+        transform: translatey(35vw); 
+        /* Translate the element vertically by 35% of the viewport width.
+        This moves the element downwards or upwards on the y-axis relative to its original position.*/
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    to {
+        transform: translateX(70vw);
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+}
+/* Animation Properties for sun rising End */

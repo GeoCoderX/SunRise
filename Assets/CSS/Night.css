@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mountain {
+    background-image: url(/Assets/Images/Mountain.jpg);
+    max-width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+
+.night {
+
+    background-color: black;
+    height: 100vh;
+}
+
+.moon {
+    background-color: rgb(239, 242, 243);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 50px 15px #fff;
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    opacity: 1;
+   }
+
+/* Animation Properties for night Shifting start */
+.night {
+    animation: night 10s ease-in-out infinite; /* night is the name of Animation. 10s is animation-durartion and then animation-timing-function and animation-iteration-count */
+}
+
+@keyframes night {
+    from {
+        opacity: 0.9;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+/* Star's Basic Properties start */
+
+.stars ol li {
+    color: aliceblue;
+
+}
+
+.stars ol li:nth-child(1),
+.stars ol li:nth-child(2),
+.stars ol li:nth-child(3),
+.stars ol li:nth-child(4),
+.stars ol li:nth-child(5),
+.stars ol li:nth-child(6),
+.stars ol li:nth-child(7),
+.stars ol li:nth-child(8),
+.stars ol li:nth-child(9),
+.stars ol li:nth-child(10),
+.stars ol li:nth-child(11),
+.stars ol li:nth-child(12),
+.stars ol li:nth-child(13),
+.stars ol li:nth-child(14),
+.stars ol li:nth-child(15),
+.stars ol li:nth-child(16),
+.stars ol li:nth-child(17),
+.stars ol li:nth-child(18),
+.stars ol li:nth-child(19),
+.stars ol li:nth-child(20),
+.stars ol li:nth-child(21),
+.stars ol li:nth-child(22),
+.stars ol li:nth-child(23),
+.stars ol li:nth-child(24),
+.stars ol li:nth-child(19),
+.stars ol li:nth-child(25)
+ {
+    background-color: aliceblue;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    width: 2px;
+    height: 2px;
+}
+/* Star's Basic Properties End */
+
+
+/* Positioning of Stars Start */
+
+.stars ol li:nth-child(1) {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+.stars ol li:nth-child(2) {
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+.stars ol li:nth-child(3) {
+    position: absolute;
+    top: 90px;
+    left: 280px;
+}
+
+.stars ol li:nth-child(4) {
+    position: absolute;
+    top: 135px;
+    left: 420px;
+}
+
+.stars ol li:nth-child(5) {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+}
+
+.stars ol li:nth-child(6) {
+    position: absolute;
+    top: 350px;
+    left: 800px;
+}
+
+.stars ol li:nth-child(7) {
+    position: absolute;
+    top: 500px;
+    left: 900px;
+}
+
+.stars ol li:nth-child(8) {
+    position: absolute;
+    top: 30px;
+    left: 1100px;
+}
+
+.stars ol li:nth-child(9) {
+    position: absolute;
+    top: 20px;
+    left: 1400px;
+}
+
+.stars ol li:nth-child(10) {
+    position: absolute;
+    top: 15px;
+    left: 1500px;
+}
+.stars ol li:nth-child(11) {
+    position: absolute;
+    top: 60px;
+    left: 1500px;
+}
+.stars ol li:nth-child(12) {
+    position: absolute;
+    top: 120px;
+  left: 1475px;
+}
+.stars ol li:nth-child(13) {
+    position: absolute;
+    top: 65px;
+  left: 1240px;
+}
+.stars ol li:nth-child(14) {
+    position: absolute;
+    top: 185px;
+  left: 1340px;
+}
+.stars ol li:nth-child(15) {
+    position: absolute;
+    top: 250px;
+    left: 1425px;
+}
+.stars ol li:nth-child(16) {
+    position: absolute;
+    top: 190px;
+  left: 1075px;
+}
+.stars ol li:nth-child(17) {
+    position: absolute;
+    top: 45px;
+  left: 900px;
+}
+.stars ol li:nth-child(18) {
+    position: absolute;
+    top: 284px;
+  left: 950px;
+}
+.stars ol li:nth-child(19) {
+    position: absolute;
+    top: 60px;
+  left: 700px;
+}
+.stars ol li:nth-child(20) {
+    position: absolute;
+    top: 35px;
+  left: 200px;
+}
+.stars ol li:nth-child(21) {
+    position: absolute;
+    top: 35px;
+  left: 335px;
+}
+.stars ol li:nth-child(22) {
+    position: absolute;
+    top: 240px;
+  left: 283px;
+}
+.stars ol li:nth-child(23) {
+    position: absolute;
+    top: 119px;
+  left: 134px;
+}
+.stars ol li:nth-child(24) {
+    position: absolute;
+    top: 335px;
+  left: 160px;
+}
+.stars ol li:nth-child(25) {
+    position: absolute;
+    top: 220px;
+  left: 60px;
+}
+/* Star's Position End */
